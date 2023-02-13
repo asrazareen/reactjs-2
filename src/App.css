@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 6px;
+    transition: .2s all ease-in-out;
+   border: brown;
+}
+button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
